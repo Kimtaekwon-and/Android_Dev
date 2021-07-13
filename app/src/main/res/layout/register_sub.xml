@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/register_sub_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+
+        <TextView
+            android:layout_marginTop="70dp"
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:textSize="30sp"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/et_registersub_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nickname"
+            android:background="@drawable/custom_edittext"
+            android:padding="10dp"/>
+
+        <Button
+
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_registersub_confilm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confilm"
+            android:background="@drawable/register_btn"
+            app:backgroundTint="@null"/>
+
+        <TextView
+
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By signing up, you agree to Photo’s Terms of Service and
+            Privacy Policy."/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
